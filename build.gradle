@@ -11,6 +11,11 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    compile project(":functional-interface")
+    compile project(":streams")
+}
+
 allprojects {
     group 'com.daviddutra'
     version '1.0-SNAPSHOT'
